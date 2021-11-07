@@ -9,6 +9,16 @@ intents:
   - mood_unhappy
   - bot_challenge
 
+slots:
+  slot_a:
+    type: text
+  slot_b:
+    type: text
+  slot_c:
+    type: text
+  slot_d:
+    type: text
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
