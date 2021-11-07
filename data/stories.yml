@@ -19,6 +19,23 @@ stories:
   - intent: affirm
   - action: utter_happy
 
+# - story: sad path 1 with lots of slots
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - slot_was_set:
+#     - slot_a: A
+#   - slot_was_set:
+#     - slot_b: B
+#     - slot_c: C
+#   - action: utter_did_that_help
+#   - slot_was_set:
+#     - slot_d: D
+#   - intent: affirm
+#   - action: utter_happy
+
 # - story: sad path 2
 #   steps:
 #   - intent: greet
