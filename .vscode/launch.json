@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "module": "rasa",
-            "args": ["train", "core", "--force"],
+            "args": ["train", "core", "--force", "-vv"],
             "justMyCode": false
         }
     ]
